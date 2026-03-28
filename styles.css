@@ -97,6 +97,20 @@ textarea:focus {
   align-items: center;
 }
 
+.nav.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-top: none;
+  padding: 1rem;
+  z-index: 10;
+}
+
 .nav a {
   padding: 0.4rem 0.5rem;
   font-weight: 600;
